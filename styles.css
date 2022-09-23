@@ -402,3 +402,7 @@ p, span, li {
     font-weight: 500;
     font-size: 1em;
 }
+
+.number {
+    color: #FFF;
+}
