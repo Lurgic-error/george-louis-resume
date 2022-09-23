@@ -12,9 +12,9 @@
     padding: 0;
 }
 
-ul>li {
+/* ul>li {
     list-style: none;
-}
+} */
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -29,7 +29,7 @@ body {
 .container {
     position: relative;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1224px;
     min-height: 100px;
     background-color: #fff;
     margin: 50px;
@@ -133,7 +133,9 @@ body {
 }
 
 
-.profile__education {}
+.profile__education {
+    margin-top: 2rem;
+}
 
 
 .education__group {}
@@ -141,6 +143,7 @@ body {
 
 .education__item {
     margin-bottom: 15px;
+    list-style: none;
 }
 
 
@@ -161,6 +164,11 @@ body {
 
 .languages__item {
     margin: 0px 0 15px 0;
+    list-style: none;
+}
+
+.profile__languages {
+    margin-top: 2rem;
 }
 
 .language__text {}
@@ -216,13 +224,13 @@ body {
 }
 
 .experience__wrapper {
-    min-width: 200px;
+    min-width: 300px;
 }
 
 .experience__year {
     text-transform: uppercase;
     color: #848c90;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .experience__company {
@@ -294,6 +302,7 @@ body {
     color: #333;
     font-weight: 500;
     margin: 10px 0;
+    list-style: none;
 }
 
 .interest__icon {
@@ -340,4 +349,56 @@ body {
     .left__side {
         padding: 20px;
     }
+
+    ul > li { list-style: none;}
+}
+
+
+
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mb-0{
+    margin-bottom: 0;
+}
+
+.referees__group-list {
+    margin-top: 2rem;
+}
+
+.referee__item {
+    margin-bottom: 1rem;
+}
+
+.button {
+    text-decoration:  none;
+    color: #FFF;
+    padding: 10px 20px;
+    background-color:#03a9f4;
+    margin: .75rem 0;
+}
+
+ul > li { list-style: none;}
+
+#wrapper--techstack__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-size: 0.9em;
+}
+
+.card--techstack {
+    border: 1px solid #03a9f4;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+p, span, li {
+    color: #848c90;
+    font-weight: 500;
+    font-size: 1em;
 }
